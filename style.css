@@ -1,0 +1,68 @@
+
+
+html {
+	font-size: 100%;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.wrapper {
+	display: flex;
+	background-color: rgb(193, 200, 230);
+	
+
+}
+
+.intro {
+	flex: 0 0 350px;
+	box-shadow: 5px 0px 15px 0px;
+	z-index: 5;
+}
+.profile {
+	position: relative;
+	text-align: center;
+	
+}
+
+img {
+	width: 80%;
+
+}
+
+.detail {
+	flex: 1 0 0;
+	background-color: rgb(237, 237, 237);
+	padding: 2rem;
+}
+
+ .info1 h1 {
+	font-size: 25px;
+	color: rgb(16, 16, 20);
+	font-family: 'Courier New', Courier, monospace;
+ }
+h1 {
+	font-size: 25px;
+	color: blue;
+	font-family: 'Courier New', Courier, monospace;
+}
+.info {
+	
+	font-family:verdana;
+}
+ 
+
+hr { 
+	height:1px;
+	border-width:0;
+	background-color:#798383;
+  }
+  h2 {
+	font-family: 'Courier New', Courier, monospace;
+  }
+
+ .checked {
+	font-size:25px; 
+	color:rgb(75, 31, 220)
+ }
+ .star {
+	font-size:25px;
+ }
